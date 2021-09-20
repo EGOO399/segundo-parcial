@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrito</title>
+    <link rel="stylesheet" href="../styles/stylos.css">
+    
+    
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+     
+</head>
+
+<body>
+     
+      <H1 class="page">EXISTENCIAS</H1>
+
+    
+        
+     
+     <nav class="menu_farma">
+        <ul class="main_farama">
+           <li>
+               <a href="../index.html">MENU PRINCIPAL</a>
+           </li>
+           
+           <li>
+               <a href="../pages/productos.html">PRODUCTOS MAS VENDIDOS</a>
+            </li>
+           
+           <li>
+                <a href="../pages/carrito.html"><img src="../images/carrito.jpg" alt=""></a> 
+
+           </li>
+
+           <li>
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                INVENTARIO
+              </a>
+            
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="../pages/existencias.html">EXISTENCIAS</a></li>
+                <li><a class="dropdown-item" href="../pages/proveedores.html">NUEVOS PROVEEDORES</a></li>
+                <li><a class="dropdown-item" href="../pages/productosnuevos.html">NUEVOS PRODUCTOS</a></li>
+                <li><a class="dropdown-item" href="../pages/clientes.html">CLIENTES</a></li>
+              </ul>
+            </div>
+           </li>
+           
+        </ul>
+      </nav>
+      <br>
+      <!--tabal para mostrar el inventario de productos existentes-->
+      <div class="conteiner">
+
+        <input type = "button" class="btn btn-danger"  value = " regreasar " onclick = "history.go (-1)">
+           
+       
+        <br>
+        <div class="title-inventario"> 
+           <h1 >Productos en existencia</h1>
+        </div>   
+        <table class="table table-success table-striped">
+            <thead >
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Producto</th>
+                    <th scope="col">precio Q</th>
+                    <th scope="col">existencias</th>
+                    <th scope="col">fecha ven.</th>
+                    <th scope="col">observaciones</th>
+                </tr>
+            </thead>
+            <tbody id="items"></tbody>
+
+            
+
+        
+        
+      </div>
+       <br>
+       <!--template para mostrar los datos en la tabla inventario de productos existentes-->
+      <template id="template-Productos">
+        <tr>
+            <th scope="row">id</th>
+            <td class="no1">Acetaminofen Tab</td>
+            <td class="no2"> Q<span>100</span></td>
+            <td class="no3">UNI. <span class="s1"> </span></td>
+            <td class="no4">vencimiento</td>
+            <td class="no5">venta libre</td>
+        </tr>
+        
+    </template>
+    </div> 
+    
+
+       <!--llamamos nuestras funciones para poder pintar los productos en la tabla utilizando el archivo api.json donde tenemos ingresados 
+        los podructos  -->
+        <script src="../scrypt/inventario.js"></script>
+        
+        
+
+      
+     
+
+      </body>

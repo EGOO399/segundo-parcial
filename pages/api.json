@@ -1,0 +1,93 @@
+   
+
+[
+    {
+        "precio": 20.00,
+        "id": 1,
+        "title": "Acetaminofen Tab",
+        "imagen": "../images/aceta.PNG",
+        "cantidad": 10,
+        "fechaVencimiento": "ven:10/2023",
+        "observaciones":"venta libre"
+    },
+    {
+        "precio": 15.00,
+        "id": 2,
+        "title": "alcohol",
+        "imagen":"../images/alcohol.PNG",
+        "cantidad": 20 ,
+        "fechaVencimiento": "ven:02/2013",
+        "observaciones": "venta libre"
+
+    },
+    {
+        "precio": 12.50,
+        "id": 3,
+        "title": "Alka-seltzer",
+        "imagen":"../images/alka-seltzer.PNG",
+        "cantidad": 15,
+        "fechaVencimiento": "ven:12/2022",
+        "observaciones": "venta libre"
+        
+    },
+    {
+         "precio": 90.00,
+         "id": 4,
+         "title": "Azitromicina tab",
+         "imagen":"../images/azitromicina-500mg.jpg",
+         "cantidad":50,
+         "fechaVencimiento": "ven:03/2024",
+         "observaciones": "necesita receta medica"
+    },
+    {
+         "precio": 18.50,
+        "id": 5,
+         "title": "Gasas",
+        "imagen":"../images/gasas.PNG",
+        "cantidad":40,
+        "fechaVencimiento": "ven:05/2022",
+        "observaciones": "venta libre"
+
+    },
+    {
+        "precio": 200.00,
+        "id": 6,
+        "title": "Esomeprazol 40mg cap.",
+        "imagen":"../images/esomeprazol-40mg.png",
+        "cantidad": 100,
+        "fechaVencimiento": "ven:09/2023",
+        "observaciones" :"necesita receta medica"   
+
+    },
+    {
+        "precio": 150.00,
+        "id": 7,
+        "title": "fexonasal 180mg tab.",
+        "imagen":"../images/fexofenadina-180mg.jpg",
+        "cantidad":100,
+        "fechaVencimiento": "Ven:09/2024",
+        "observaciones": "venta libre"
+    },
+    {
+        "precio": 10.00,
+        "id":8,
+        "title": "ibuprofeno tab.",
+        "imagen": "../images/ibuprofeno.PNG",
+        "cantidad":50,
+        "fechaVencimiento": "ven:04/2023",
+        "observaciones":"venta libre"     
+    },
+    {
+        "precio": 55.99,
+        "id":9,
+        "title": "Ivermectina 6mg tab.",
+        "imagen": "../images/ivermectina 6mg.png",
+        "cantidad":20,
+        "fechaVencimiento": "ven:09/2023",
+        "observaciones":"necesita receta medica"
+
+
+    }
+
+ 
+ ]
